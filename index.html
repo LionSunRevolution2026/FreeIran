@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
 
 <!-- Google Analytics -->
@@ -14,7 +14,7 @@ gtag('config', 'G-GN46JLLP0X');
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>FreeIran</title>
+<title>ایران آزاد</title>
 
 <meta property="og:title" content="FreeIran">
 <meta property="og:description" content="Choose your country campaign and support freedom for Iran">
@@ -78,19 +78,22 @@ body{
 .topBadge{
   display:inline-flex;
   align-items:center;
-  gap:10px;
-  margin-bottom:14px;
-  padding:10px 14px;
+  gap:14px;
+  margin-bottom:16px;
+  padding:12px 18px;
   border:1px solid var(--border);
   border-radius:999px;
   background:rgba(255,255,255,.05);
   font-weight:700;
+  font-size:24px;
+  line-height:1.2;
 }
 
 .hero h1{
   margin:0;
-  font-size:42px;
+  font-size:58px;
   letter-spacing:.4px;
+  line-height:1.15;
 }
 
 .hero p{
@@ -170,7 +173,12 @@ body{
 }
 
 @media (max-width:700px){
-  .hero h1{font-size:34px}
+  .topBadge{
+    font-size:20px;
+    gap:10px;
+    padding:10px 14px;
+  }
+  .hero h1{font-size:42px}
   .hero p{font-size:15px}
 }
 </style>
@@ -183,8 +191,8 @@ body{
     </div>
 
     <section class="hero">
-      <div class="topBadge" id="topBadge">🕊️ Support Freedom for Iran</div>
-      <h1 id="title">FreeIran</h1>
+      <div class="topBadge" id="topBadge">🕊️ ایران آزاد</div>
+      <h1 id="title">ایران آزاد</h1>
       <p id="subtitle"></p>
     </section>
 
@@ -259,7 +267,7 @@ const UI = {
     dir:"rtl",
     lang:"fa",
     topBadge:"🕊️ ایران آزاد",
-    title:" ایران آزاد",
+    title:"ایران آزاد",
     subtitle:"کشور مورد نظر خود را در پایین انتخاب کنید. هر صفحه به شما کمک می‌کند ایمیلی آماده برای نمایندگان سیاسی در حمایت از مردم ایران، دموکراسی، حقوق بشر و تمامیت ارضی ایران ارسال کنید.",
     germanyTitle:"آلمان",
     germanyText:"صفحه کمپین آلمان را باز کنید و به نمایندگان آلمان ایمیل بفرستید.",
@@ -281,7 +289,7 @@ const UI = {
   }
 };
 
-let LANG = "en";
+let LANG = "fa";
 
 function setLang(lang){
   LANG = lang;
@@ -345,7 +353,7 @@ function trackCountryClick(country){
   });
 }
 
-setLang("en");
+setLang("fa");
 </script>
 </body>
 </html>
