@@ -231,6 +231,55 @@ body{
         <p id="austriaText"></p>
         <span class="go" id="austriaBtn"></span>
       </a>
+
+      <a class="card" href="https://lionsunrevolution2026.github.io/FreeIran-France/" target="_blank" rel="noopener" onclick="trackCountryClick('France')">
+        <img class="flag" src="flags/france.png" alt="France flag">
+        <h2 id="franceTitle"></h2>
+        <p id="franceText"></p>
+        <span class="go" id="franceBtn"></span>
+      </a>
+
+      <a class="card" href="https://lionsunrevolution2026.github.io/FreeIran-Sweden/" target="_blank" rel="noopener" onclick="trackCountryClick('Sweden')">
+        <img class="flag" src="flags/sweden.png" alt="Sweden flag">
+        <h2 id="swedenTitle"></h2>
+        <p id="swedenText"></p>
+        <span class="go" id="swedenBtn"></span>
+      </a>
+
+      <a class="card" href="https://lionsunrevolution2026.github.io/FreeIran-Denmark/" target="_blank" rel="noopener" onclick="trackCountryClick('Denmark')">
+        <img class="flag" src="flags/denmark.png" alt="Denmark flag">
+        <h2 id="denmarkTitle"></h2>
+        <p id="denmarkText"></p>
+        <span class="go" id="denmarkBtn"></span>
+      </a>
+
+      <a class="card" href="https://lionsunrevolution2026.github.io/FreeIran-Finland/" target="_blank" rel="noopener" onclick="trackCountryClick('Finland')">
+        <img class="flag" src="flags/finland.png" alt="Finland flag">
+        <h2 id="finlandTitle"></h2>
+        <p id="finlandText"></p>
+        <span class="go" id="finlandBtn"></span>
+      </a>
+
+      <a class="card" href="https://lionsunrevolution2026.github.io/FreeIran-Belgium/" target="_blank" rel="noopener" onclick="trackCountryClick('Belgium')">
+        <img class="flag" src="flags/belgium.png" alt="Belgium flag">
+        <h2 id="belgiumTitle"></h2>
+        <p id="belgiumText"></p>
+        <span class="go" id="belgiumBtn"></span>
+      </a>
+
+      <a class="card" href="https://lionsunrevolution2026.github.io/FreeIran-Norway/" target="_blank" rel="noopener" onclick="trackCountryClick('Norway')">
+        <img class="flag" src="flags/norway.png" alt="Norway flag">
+        <h2 id="norwayTitle"></h2>
+        <p id="norwayText"></p>
+        <span class="go" id="norwayBtn"></span>
+      </a>
+
+      <a class="card" href="https://lionsunrevolution2026.github.io/FreeIran-Europe/" target="_blank" rel="noopener" onclick="trackCountryClick('Europe')">
+        <img class="flag" src="flags/eu.png" alt="European Union flag">
+        <h2 id="europeTitle"></h2>
+        <p id="europeText"></p>
+        <span class="go" id="europeBtn"></span>
+      </a>
     </section>
 
     <div class="footer" id="footerText"></div>
@@ -244,21 +293,55 @@ const UI = {
     topBadge:"🕊️ Support Freedom for Iran",
     title:"FreeIran",
     subtitle:"Choose your country campaign below. Each page helps you send an email to political representatives in support of the Iranian people, democracy, human rights, and Iran’s territorial integrity.",
+
     germanyTitle:"Germany",
     germanyText:"Open the Germany campaign page and send an email to German representatives.",
     germanyBtn:"Open campaign →",
+
     italyTitle:"Italy",
     italyText:"Open the Italy campaign page and send an email to members of the Italian Parliament.",
     italyBtn:"Open campaign →",
+
     ukTitle:"United Kingdom",
     ukText:"Open the UK campaign page and send an email to British representatives.",
     ukBtn:"Open campaign →",
+
     spainTitle:"Spain",
     spainText:"Open the Spain campaign page and send an email to Spanish representatives.",
     spainBtn:"Open campaign →",
+
     austriaTitle:"Austria",
     austriaText:"Open the Austria campaign page and send an email to Austrian representatives.",
     austriaBtn:"Open campaign →",
+
+    franceTitle:"France",
+    franceText:"Open the France campaign page and send an email to French representatives.",
+    franceBtn:"Open campaign →",
+
+    swedenTitle:"Sweden",
+    swedenText:"Open the Sweden campaign page and send an email to Swedish representatives.",
+    swedenBtn:"Open campaign →",
+
+    denmarkTitle:"Denmark",
+    denmarkText:"Open the Denmark campaign page and send an email to Danish representatives.",
+    denmarkBtn:"Open campaign →",
+
+    finlandTitle:"Finland",
+    finlandText:"Open the Finland campaign page and send an email to Finnish representatives.",
+    finlandBtn:"Open campaign →",
+
+    belgiumTitle:"Belgium",
+    belgiumText:"Open the Belgium campaign page and send an email to Belgian representatives.",
+    belgiumBtn:"Open campaign →",
+
+    norwayTitle:"Norway",
+    norwayText:"Open the Norway campaign page and send an email to Norwegian representatives.",
+    norwayBtn:"Open campaign →",
+
+    europeTitle:"European Union",
+    europeText:"Open the European Parliament campaign page and contact Members of the European Parliament.",
+    europeBtn:"Open campaign →",
+
     footer:"FreeIran project • GitHub Pages",
     toggle:"🌐 فارسی"
   },
@@ -269,21 +352,55 @@ const UI = {
     topBadge:"🕊️ ایران آزاد",
     title:"ایران آزاد",
     subtitle:"کشور مورد نظر خود را در پایین انتخاب کنید. هر صفحه به شما کمک می‌کند ایمیلی آماده برای نمایندگان سیاسی در حمایت از مردم ایران، دموکراسی، حقوق بشر و تمامیت ارضی ایران ارسال کنید.",
+
     germanyTitle:"آلمان",
     germanyText:"صفحه کمپین آلمان را باز کنید و به نمایندگان آلمان ایمیل بفرستید.",
     germanyBtn:"باز کردن کمپین ←",
+
     italyTitle:"ایتالیا",
     italyText:"صفحه کمپین ایتالیا را باز کنید و به اعضای پارلمان ایتالیا ایمیل بفرستید.",
     italyBtn:"باز کردن کمپین ←",
+
     ukTitle:"بریتانیا",
     ukText:"صفحه کمپین بریتانیا را باز کنید و به نمایندگان بریتانیا ایمیل بفرستید.",
     ukBtn:"باز کردن کمپین ←",
+
     spainTitle:"اسپانیا",
     spainText:"صفحه کمپین اسپانیا را باز کنید و به نمایندگان اسپانیا ایمیل بفرستید.",
     spainBtn:"باز کردن کمپین ←",
+
     austriaTitle:"اتریش",
     austriaText:"صفحه کمپین اتریش را باز کنید و به نمایندگان اتریش ایمیل بفرستید.",
     austriaBtn:"باز کردن کمپین ←",
+
+    franceTitle:"فرانسه",
+    franceText:"صفحه کمپین فرانسه را باز کنید و به نمایندگان فرانسه ایمیل بفرستید.",
+    franceBtn:"باز کردن کمپین ←",
+
+    swedenTitle:"سوئد",
+    swedenText:"صفحه کمپین سوئد را باز کنید و به نمایندگان سوئد ایمیل بفرستید.",
+    swedenBtn:"باز کردن کمپین ←",
+
+    denmarkTitle:"دانمارک",
+    denmarkText:"صفحه کمپین دانمارک را باز کنید و به نمایندگان دانمارک ایمیل بفرستید.",
+    denmarkBtn:"باز کردن کمپین ←",
+
+    finlandTitle:"فنلاند",
+    finlandText:"صفحه کمپین فنلاند را باز کنید و به نمایندگان فنلاند ایمیل بفرستید.",
+    finlandBtn:"باز کردن کمپین ←",
+
+    belgiumTitle:"بلژیک",
+    belgiumText:"صفحه کمپین بلژیک را باز کنید و به نمایندگان بلژیک ایمیل بفرستید.",
+    belgiumBtn:"باز کردن کمپین ←",
+
+    norwayTitle:"نروژ",
+    norwayText:"صفحه کمپین نروژ را باز کنید و به نمایندگان نروژ ایمیل بفرستید.",
+    norwayBtn:"باز کردن کمپین ←",
+
+    europeTitle:"اتحادیه اروپا",
+    europeText:"صفحه کمپین پارلمان اروپا را باز کنید و به نمایندگان پارلمان اروپا ایمیل بفرستید.",
+    europeBtn:"باز کردن کمپین ←",
+
     footer:"پروژه FreeIran • ساخته‌شده با GitHub Pages",
     toggle:"🌐 English"
   }
@@ -322,6 +439,34 @@ function setLang(lang){
   document.getElementById("austriaTitle").textContent = t.austriaTitle;
   document.getElementById("austriaText").textContent = t.austriaText;
   document.getElementById("austriaBtn").textContent = t.austriaBtn;
+
+  document.getElementById("franceTitle").textContent = t.franceTitle;
+  document.getElementById("franceText").textContent = t.franceText;
+  document.getElementById("franceBtn").textContent = t.franceBtn;
+
+  document.getElementById("swedenTitle").textContent = t.swedenTitle;
+  document.getElementById("swedenText").textContent = t.swedenText;
+  document.getElementById("swedenBtn").textContent = t.swedenBtn;
+
+  document.getElementById("denmarkTitle").textContent = t.denmarkTitle;
+  document.getElementById("denmarkText").textContent = t.denmarkText;
+  document.getElementById("denmarkBtn").textContent = t.denmarkBtn;
+
+  document.getElementById("finlandTitle").textContent = t.finlandTitle;
+  document.getElementById("finlandText").textContent = t.finlandText;
+  document.getElementById("finlandBtn").textContent = t.finlandBtn;
+
+  document.getElementById("belgiumTitle").textContent = t.belgiumTitle;
+  document.getElementById("belgiumText").textContent = t.belgiumText;
+  document.getElementById("belgiumBtn").textContent = t.belgiumBtn;
+
+  document.getElementById("norwayTitle").textContent = t.norwayTitle;
+  document.getElementById("norwayText").textContent = t.norwayText;
+  document.getElementById("norwayBtn").textContent = t.norwayBtn;
+
+  document.getElementById("europeTitle").textContent = t.europeTitle;
+  document.getElementById("europeText").textContent = t.europeText;
+  document.getElementById("europeBtn").textContent = t.europeBtn;
 
   document.getElementById("footerText").textContent = t.footer;
   document.getElementById("langBtn").textContent = t.toggle;
