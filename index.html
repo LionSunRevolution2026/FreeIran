@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GN46JLLP0X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GN46JLLP0X');
+  </script>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FreeIran</title>
+
+  <meta property="og:title" content="FreeIran">
+  <meta property="og:description" content="Choose a country campaign and send your message in support of the Iranian people.">
+  <meta property="og:image" content="https://YOURUSERNAME.github.io/FreeIran/freeiran-cover.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://YOURUSERNAME.github.io/FreeIran/">
+
+  <style>
+    :root{
+      --bg0:#07131c;
+      --bg1:#0b1d2a;
+      --bg2:#061018;
+      --card0:#0d2230;
+      --card1:#0a1b27;
+      --text:#e8f2ff;
+      --muted:rgba(232,242,255,.74);
+      --border:rgba(255,255,255,.10);
+      --accent:#c9a96b;
+    }
+
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 700px at 15% 10%, rgba(47,192,214,.10), transparent 55%),
+        radial-gradient(900px 600px at 85% 0%, rgba(60,120,255,.10), transparent 50%),
+        linear-gradient(180deg,var(--bg1),var(--bg0) 55%,var(--bg2));
+      min-height:100vh;
+    }
+
+    .wrap{
+      max-width:1180px;
+      margin:0 auto;
+      padding:40px 18px 60px;
+    }
+
+    .hero{
+      text-align:center;
+      margin-bottom:28px;
+    }
+
+    .hero h1{
+      margin:0;
+      font-size:42px;
+      letter-spacing:.4px;
+    }
+
+    .hero p{
+      max-width:820px;
+      margin:12px auto 0;
+      color:var(--muted);
+      line-height:1.8;
+      font-size:17px;
+    }
+
+    .topBadge{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      margin-bottom:14px;
+      padding:10px 14px;
+      border:1px solid var(--border);
+      border-radius:999px;
+      background:rgba(255,255,255,.05);
+      font-weight:700;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:18px;
+      margin-top:30px;
+    }
+
+    .card{
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      border:1px solid var(--border);
+      border-radius:22px;
+      padding:18px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)),
+        linear-gradient(180deg, var(--card0), var(--card1));
+      box-shadow:0 20px 50px rgba(0,0,0,.38);
+      transition:transform .14s ease, border-color .14s ease, box-shadow .14s ease;
+    }
+
+    .card:hover{
+      transform:translateY(-4px);
+      border-color:rgba(201,169,107,.5);
+      box-shadow:0 26px 55px rgba(0,0,0,.48);
+    }
+
+    .flag{
+      width:72px;
+      height:72px;
+      border-radius:16px;
+      object-fit:cover;
+      display:block;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.05);
+    }
+
+    .card h2{
+      margin:14px 0 8px;
+      font-size:24px;
+    }
+
+    .card p{
+      margin:0;
+      color:var(--muted);
+      line-height:1.7;
+      min-height:52px;
+    }
+
+    .go{
+      margin-top:16px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:10px 14px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.06);
+      font-weight:800;
+    }
+
+    .footer{
+      margin-top:38px;
+      text-align:center;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    @media (max-width:700px){
+      .hero h1{font-size:34px}
+      .hero p{font-size:15px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="topBadge">🕊️ Support Freedom for Iran</div>
+      <h1>FreeIran</h1>
+      <p>
+        Choose your country campaign below. Each page helps you send a ready email
+        to political representatives in support of the Iranian people, democracy,
+        human rights, and Iran’s territorial integrity.
+      </p>
+    </section>
+
+    <section class="grid">
+      <a class="card" href="https://YOURUSERNAME.github.io/FreeIran-Germany/" target="_blank" rel="noopener" onclick="trackCountryClick('Germany')">
+        <img class="flag" src="flags/germany.png" alt="Germany flag">
+        <h2>Germany</h2>
+        <p>Open the Germany campaign page and send an email to German representatives.</p>
+        <span class="go">Open campaign →</span>
+      </a>
+
+      <a class="card" href="https://YOURUSERNAME.github.io/FreeIran-Italy/" target="_blank" rel="noopener" onclick="trackCountryClick('Italy')">
+        <img class="flag" src="flags/italy.png" alt="Italy flag">
+        <h2>Italy</h2>
+        <p>Open the Italy campaign page and send an email to members of the Italian Parliament.</p>
+        <span class="go">Open campaign →</span>
+      </a>
+
+      <a class="card" href="https://YOURUSERNAME.github.io/FreeIran-UK/" target="_blank" rel="noopener" onclick="trackCountryClick('UK')">
+        <img class="flag" src="flags/uk.png" alt="United Kingdom flag">
+        <h2>United Kingdom</h2>
+        <p>Open the UK campaign page and send an email to British political representatives.</p>
+        <span class="go">Open campaign →</span>
+      </a>
+
+      <a class="card" href="https://YOURUSERNAME.github.io/FreeIran-Spain/" target="_blank" rel="noopener" onclick="trackCountryClick('Spain')">
+        <img class="flag" src="flags/spain.png" alt="Spain flag">
+        <h2>Spain</h2>
+        <p>Open the Spain campaign page and send an email to Spanish representatives.</p>
+        <span class="go">Open campaign →</span>
+      </a>
+
+      <a class="card" href="https://YOURUSERNAME.github.io/FreeIran-Austria/" target="_blank" rel="noopener" onclick="trackCountryClick('Austria')">
+        <img class="flag" src="flags/austria.png" alt="Austria flag">
+        <h2>Austria</h2>
+        <p>Open the Austria campaign page and send an email to Austrian representatives.</p>
+        <span class="go">Open campaign →</span>
+      </a>
+    </section>
+
+    <div class="footer">
+      FreeIran project • Built with GitHub Pages
+    </div>
+  </div>
+
+  <script>
+    function trackCountryClick(country){
+      if (typeof gtag !== "function") return;
+      gtag('event', 'country_card_click', {
+        event_category: 'navigation',
+        event_label: country,
+        country_name: country,
+        page_name: 'freeiran_home'
+      });
+    }
+  </script>
+</body>
+</html>
